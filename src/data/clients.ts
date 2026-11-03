@@ -196,6 +196,26 @@ export const CLIENTS: Client[] = [
         }
     },
     {
+        id: 'uxway',
+        name: 'UXWay',
+        core: 'xray',
+        platforms: ['android', 'ios', 'macos'],
+        description:
+            'Xray client for Android, iOS and macOS (Apple Silicon), with subscription URL and QR code import.',
+        logo: '/clients/logo/uxway-dark.svg',
+        githubRepo: 'DigneZzZ/UXWay',
+        downloadLinks: {
+            android: 'https://github.com/DigneZzZ/UXWay/releases/latest/download/UXWay.apk',
+            ios: 'https://apps.apple.com/us/app/uxway/id6762559624',
+            macos: 'https://apps.apple.com/us/app/uxway/id6762559624'
+        },
+        links: {
+            github: 'https://github.com/DigneZzZ/UXWay',
+            website: 'https://get.uxway.app',
+            docs: 'https://docs.uxway.app'
+        }
+    },
+    {
         id: 'v2box',
         name: 'V2Box',
         core: 'xray',
